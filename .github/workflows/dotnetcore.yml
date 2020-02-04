@@ -13,5 +13,4 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.101
-    - name: Build and Publish Web App
-      run: msbuild Schulprojekt/CIProjekt/CIProjekt.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+
